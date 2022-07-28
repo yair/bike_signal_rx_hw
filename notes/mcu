@@ -1,0 +1,9 @@
+We know our component list --
+- rechargable lithium batter
+- boost converter to 5V
+- LDO to 3.3V
+- neopixel matrix (1 GPIO)
+- accelerometer (ADXL345, I2C/SPI)
+- Receiver for front unit (1 GPIO)
+Not too much on the whole. Question is what interface we want for programming/messing with animations. Also how much flash we want to store these.
+Bluetooth would be nice. Wifi less. USB not too bad, we'll need it for charging, but we can't use it on the fly. ESP prolly overkill. What about nordic? Price and power consumption, I guess. Also ease of development. Yeah, power consumption etc. all go to the NRF52 side, but local support is poor. Should look beyond Lazada/Shopee/Mouser/DigiKey perhaps.
